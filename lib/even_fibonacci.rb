@@ -9,5 +9,5 @@ def even_fibonacci_sum(limit)
     first = second
     second = i
   end
-  filtered_array.reduce(:+)
+  filtered_array.inject(:+)
 end 
