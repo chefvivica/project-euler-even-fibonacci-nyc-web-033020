@@ -1,7 +1,6 @@
 # Implement your procedural solution here!
 def even_fibonacci_sum(limit)
-  arr = []
-   filtered_array = []
+  filtered_array = []
   i, first, second = 0, 0, 1
   while i < limit
     i = first + second
