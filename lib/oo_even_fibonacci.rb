@@ -1,2 +1,12 @@
 # Implement your object-oriented solution here!
-Class sum
+class EvenFibonacci
+  attr_reader :limit, :sum 
+  
+  def initialize
+    @limit = limit
+    @sum = []
+  end 
+  
+  
+  
+end 
